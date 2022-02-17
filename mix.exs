@@ -39,9 +39,11 @@ defmodule NervesSkeletonSystemRpi4.MixProject do
   end
 
   defp nerves_package do
+    # IO.inspect(Path.join([File.cwd!(), "..", "artifacts"]))
     [
       type: :system,
       artifact_sites: [
+        {:prefix, "/../artifacts"},
         {:github_releases, "#{@github_organization}/#{@app}"}
       ],
       build_runner_opts: build_runner_opts(),
