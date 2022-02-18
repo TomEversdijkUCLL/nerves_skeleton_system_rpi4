@@ -1,5 +1,0 @@
-# md5, sha256 from https://pypi.org/pypi/scikit-build/json
-md5  b3f4b7adafcf6aa713e5a6eadd84179b  scikit-build-0.13.1.tar.gz
-sha256  5d1774a2eb15988e081c582c254ab4a9752096e6a34f235411cb79bd61660c37  scikit-build-0.13.1.tar.gz
-# Locally computed sha256 checksums
-sha256  2a706f2cde09d2d589900dafc5393b926b570f18dcf4259765631d272f039761  LICENSE

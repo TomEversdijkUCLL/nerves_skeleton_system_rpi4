@@ -3,4 +3,4 @@
 # If these are non-proprietary, please consider contributing them back to
 # Nerves or Buildroot.
 
-source "$NERVES_DEFCONFIG_DIR/package/python-imutils/Config.in"
+source "$NERVES_DEFCONFIG_DIR/packages/python-imutils/Config.in"
