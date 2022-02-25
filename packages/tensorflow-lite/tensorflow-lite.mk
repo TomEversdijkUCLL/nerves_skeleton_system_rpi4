@@ -4,8 +4,8 @@
 #
 ################################################################################
 
-TENSORFLOW_LITE_VERSION = 9663abe4c9037030b0b497c68cc4b2ba991967dd
-TENSORFLOW_LITE_SITE = $(call github,tensorflow,tensorflow,$(TENSORFLOW_LITE_VERSION))
+TENSORFLOW_LITE_VERSION = e994fb9c3ad250d38fd07511aaa445eda728f9af #Commit hash to install
+TENSORFLOW_LITE_SITE = $(call github,tensorflow,tensorflow,$(TENSORFLOW_LITE_VERSION)) #Where to retrieve the files ()
 
 TENSORFLOW_LITE_LICENSE = Apache-2.0
 TENSORFLOW_LITE_LICENSE_FILES = LICENSE
