@@ -5,3 +5,4 @@
 
 source "$NERVES_DEFCONFIG_DIR/packages/python-imutils/Config.in"
 source "$NERVES_DEFCONFIG_DIR/packages/tensorflow-lite/Config.in"
+source "$NERVES_DEFCONFIG_DIR/packages/python-opencv/Config.in"
